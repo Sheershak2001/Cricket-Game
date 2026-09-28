@@ -1,0 +1,50 @@
+body{
+  text-align: center;
+}
+
+.choice-button{
+  font-size: x-large;
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(87, 182, 19);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.images{
+  height: 96px;
+  width: 96px;
+  border-radius: 50px;
+  border: 1px solid rgb(87, 182, 19);
+}
+
+#user-move {
+  color: rgb(101, 0, 195);
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+#computer-move {
+  color: rgb(255, 1, 115);
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+#result {
+  color: rgb(36, 51, 220);
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+#score {
+  color: green;
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+#reset {
+  font-family: "Poppins", "Roboto", sans-serif;
+  color: white;
+  font-size: large;
+  background-color: rgb(244, 52, 52);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 50px;
+}
